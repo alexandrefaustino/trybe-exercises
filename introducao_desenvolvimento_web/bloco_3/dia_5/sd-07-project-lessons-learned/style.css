@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(253,251,251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  margin-bottom: 50px;
+}
+
+#minha_foto {
+  position: relative;
+  width: 250px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.lado {
+  display: inline-block;
+  height: auto;
+  border: 1px solid #000;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.lado-direito {
+  float: right;
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.table {
+  border: 1px solid #000;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+p {
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  color: blue;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+
