@@ -53,13 +53,46 @@
         */
 
     //1 - Função
-    function chanceTagP(){
-      let getElementP = document.getElementsByTagName("p");
-      for (let position in getElementP) {
-        getElementP[position].innerText = "Falando inglês fluente e trabalhando numa grande empresa" ;
+    function changeTagP() {
+      let getParagraph = document.getElementsByTagName('p');
+      for (let position in getParagraph) {
+        getParagraph[position].innerText = "Falando inglês fluente e trabalhando numa grande empresa";
       }
     }
-    chanceTagP();
+
+    //2 - Função
+    function changeColorDivMainContent() {
+      let getDivMainContent = document.getElementsByClassName('main-content');
+      getDivMainContent[0].style.backgroundColor = 'rgb(76,164,109';
+    }
+
+    //3 - Função
+    function changeColorDivCenterContent() {
+      let getDivCenterContent = document.getElementsByClassName('center-content');
+      getDivCenterContent[0].style.backgroundColor = "white";
+    }
+    
+    //4 - Função
+    function changeTitle() {
+      let getH1Title = document.getElementsByClassName('title');
+      getH1Title[0].innerText = "Exercício 5.1 - Java Script";
+    }
+
+    //5 - Função
+    function upperCaseParagraph() {
+      let getParagraph = document.getElementsByTagName('p');
+      let upperCase;
+      for (let position = 0; position < getParagraph.length; position += 1) {
+         upperCase = getParagraph[position].innerText.toUpperCase();
+         getParagraph[position].innerText = upperCase;      
+      }            
+    }    
+
+    changeTagP();
+    changeColorDivMainContent();
+    changeColorDivCenterContent();
+    changeTitle();
+    upperCaseParagraph();
 
     </script>
   </body>
