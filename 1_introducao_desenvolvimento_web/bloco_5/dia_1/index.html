@@ -86,6 +86,14 @@
          upperCase = getParagraph[position].innerText.toUpperCase();
          getParagraph[position].innerText = upperCase;      
       }            
+    }  
+
+    //6 - Função
+    function showTextParagraph() {
+      let getParagraph = document.getElementsByTagName('p');
+      for (let position = 0; position < getParagraph.length; position += 1) {
+         console.log(getParagraph[position].innerText)         
+      }            
     }    
 
     changeTagP();
@@ -93,6 +101,7 @@
     changeColorDivCenterContent();
     changeTitle();
     upperCaseParagraph();
+    showTextParagraph();
 
     </script>
   </body>
