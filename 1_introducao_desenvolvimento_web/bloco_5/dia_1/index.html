@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    <div class="main-content">
+      <div class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </div>
+    </div>
+    <script>
+        /*
+        Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
+        - document.getElementById()
+        - document.getElementsByClassName()
+        - document.getElementsByTagName()
+ 1 - Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
+ 2 - Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+ 3 - Crie uma função que mude a cor do quadrado vermelho para branco.
+ 4 - Crie uma função que corrija o texto da tag <h1>.
+ 5 - Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+ 6 - Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+        */
+
+    //1 - Função
+    function changeTagP() {
+      let getParagraph = document.getElementsByTagName('p');
+      for (let position in getParagraph) {
+        getParagraph[position].innerText = "Falando inglês fluente e trabalhando numa grande empresa";
+      }
+    }
+
+    //2 - Função
+    function changeColorDivMainContent() {
+      let getDivMainContent = document.getElementsByClassName('main-content');
+      getDivMainContent[0].style.backgroundColor = 'rgb(76,164,109';
+    }
+
+    //3 - Função
+    function changeColorDivCenterContent() {
+      let getDivCenterContent = document.getElementsByClassName('center-content');
+      getDivCenterContent[0].style.backgroundColor = "white";
+    }
+    
+    //4 - Função
+    function changeTitle() {
+      let getH1Title = document.getElementsByClassName('title');
+      getH1Title[0].innerText = "Exercício 5.1 - Java Script";
+    }
+
+    //5 - Função
+    function upperCaseParagraph() {
+      let getParagraph = document.getElementsByTagName('p');
+      let upperCase;
+      for (let position = 0; position < getParagraph.length; position += 1) {
+         upperCase = getParagraph[position].innerText.toUpperCase();
+         getParagraph[position].innerText = upperCase;      
+      }            
+    }  
+
+    //6 - Função
+    function showTextParagraph() {
+      let getParagraph = document.getElementsByTagName('p');
+      for (let position = 0; position < getParagraph.length; position += 1) {
+         console.log(getParagraph[position].innerText)         
+      }            
+    }    
+
+    changeTagP();
+    changeColorDivMainContent();
+    changeColorDivCenterContent();
+    changeTitle();
+    upperCaseParagraph();
+    showTextParagraph();
+
+    </script>
+  </body>
+</html>
