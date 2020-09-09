@@ -57,43 +57,43 @@
   </head>
   <body>
     <script>
-      //exercício 01
+      // exercício 01
       let createTitle = document.createElement('h1');
       createTitle.innerText = "Exercício 5.2 - JavaScript DOM";
       document.body.appendChild(createTitle);
 
-      //exercício 02
+      // exercício 02
       let divMainContent = document.createElement('div');
       divMainContent.className = 'main-content';
       document.body.appendChild(divMainContent);
 
-      //exercício 03
+      // exercício 03
       let divCenterContent = document.createElement('div');
       divCenterContent.className = 'center-content';
       divMainContent.appendChild(divCenterContent);
 
-      //exercício 04
+      // exercício 04
       let phagrafo = document.createElement('p');
       phagrafo.innerText = 'Viva o Linux';
       divCenterContent.appendChild(phagrafo);
 
-      //exercício 05
+      // exercício 05
       let divLeftContent = document.createElement('div');
       divLeftContent.className = 'left-content';
       divMainContent.appendChild(divLeftContent);
 
-      //exercício 06
+      // exercício 06
       let divRightContent = document.createElement('div');
       divRightContent.className = 'right-content';
       divMainContent.appendChild(divRightContent);
 
-      //exercício 07
+      // exercício 07
       let imgSmallImage = document.createElement('img');
       imgSmallImage.src = 'https://picsum.photos/200';
       imgSmallImage.className = 'small-image';
       divLeftContent.appendChild(imgSmallImage);
 
-      //exercício 08
+      // exercício 08
       let ulList = document.createElement('ul');
       let itemList;
       for (let index = 1; index <= 10; index += 1) {
@@ -103,16 +103,24 @@
       }
       divRightContent.appendChild(ulList);
 
-      //exercício 09
+      // exercício 09
       let createTagH3;
       for (let index = 1; index <= 3; index += 1) {
         createTagH3 = document.createElement('h3');
         divMainContent.appendChild(createTagH3);
       }
 
-      //exercício 10
+      // exercício 10
       createTitle.className = 'title';
-      
+
+      // exercício 11
+      getTagH3 = document.getElementsByTagName('h3');
+      for (let item of getTagH3) {
+        item.className = 'description';
+      }
+
+      // exercício 12
+      divMainContent.removeChild(divLeftContent);
 
     </script>
   </body>
