@@ -76,6 +76,34 @@
       let phagrafo = document.createElement('p');
       phagrafo.innerText = 'Viva o Linux';
       divCenterContent.appendChild(phagrafo);
+
+      //exercício 05
+      let divLeftContent = document.createElement('div');
+      divLeftContent.className = 'left-content';
+      divMainContent.appendChild(divLeftContent);
+
+      //exercício 06
+      let divRightContent = document.createElement('div');
+      divRightContent.className = 'right-content';
+      divMainContent.appendChild(divRightContent);
+
+      //exercício 07
+      let imgSmallImage = document.createElement('img');
+      imgSmallImage.src = 'https://picsum.photos/200';
+      imgSmallImage.className = 'small-image';
+      divLeftContent.appendChild(imgSmallImage);
+
+      //exercício 08
+      let ulList = document.createElement('ul');
+      let itemList;
+      for (let index = 1; index <= 10; index += 1) {
+        itemList = document.createElement('li');
+        itemList.innerText = index;
+        ulList.appendChild(itemList);
+      }
+      divRightContent.appendChild(ulList);
+
+      
     </script>
   </body>
 </html>
