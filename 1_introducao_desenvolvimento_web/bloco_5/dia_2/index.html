@@ -98,6 +98,7 @@
       let itemList;
       for (let index = 1; index <= 10; index += 1) {
         itemList = document.createElement('li');
+        itemList.className = 'numberList';
         itemList.innerText = index;
         ulList.appendChild(itemList);
       }
@@ -128,6 +129,15 @@
       // exercício 14
       divCenterContent.parentNode.style.backgroundColor = 'green';
 
+      // exercício 15
+      let numberListItem = document.querySelectorAll('.numberList');
+      
+      for (let index = 0; index < numberListItem.length; index += 1) {
+        let element = numberListItem[index];
+        if (element.innerText.includes('9') || element.innerText.includes('10')) {
+          ulList.removeChild(element);
+        }
+      }      
     </script>
   </body>
 </html>
