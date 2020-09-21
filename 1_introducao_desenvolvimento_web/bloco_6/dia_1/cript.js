@@ -1,4 +1,4 @@
-const estados = {
+const estadosObject = {
   'AC': 'Acre',
   'AL': 'Alagoas',
   'AP': 'Amapá',
@@ -28,17 +28,59 @@ const estados = {
   'TO': 'Tocantins'
 }
 
-const getTagSelected = document.getElementById('estados');
+const nome = document.getElementById('name');
+const email = document.getElementById('email');
+const cpf = document.getElementById('cpf');
+const endereco = document.getElementById('endereco');
+const cidade = document.getElementById('cidade');
+const estados = document.getElementById('estados');
+const inputs = document.getElementsByTagName('input');
 
-for (let key in estados) {
-  const tagOption = document.createElement('option');
-  tagOption.value = key;
-  tagOption.innerText = estados[key];
-  getTagSelected.appendChild(tagOption);
+window.onload = function () {
+  for (let key in estadosObject) {
+    const tagOption = document.createElement('option');
+    tagOption.value = key;
+    tagOption.innerText = estadosObject[key];
+    estados.appendChild(tagOption);
+  }
 }
 
 function stopDefAction(event) {
-  event.preventDefault();
+    event.preventDefault();
 }
 
-document.getElementById('btn').addEventListener('click', stopDefAction, false);
+function createDiv() {
+  const divForm = document.createElement('div');
+  divForm.classList.add('divForm');
+  document.getElementById('body').appendChild(divForm);
+  return divForm;
+}
+
+function createParagraph() {
+  const tagP = document.createElement('p');
+  return tagP;  
+}
+
+function createH1() {
+  const tagH1 = document.createElement('h1');
+  return tagH1;  
+}
+
+document.getElementById('enviar').addEventListener('click', function(event) {
+  stopDefAction(event);
+  const divForm = createDiv();
+  const tagH1 = createH1();
+  tagH1.innerText = 'Dados do Candidato';
+  const tagP = createParagraph();
+  tagP.innerText = `Nome: ${nome.value} \n Email: ${email.value} \n CPF: ${cpf.value} \n Endereço: ${endereco.value} \n Cidade: ${cidade.value} ${estados.value}`;
+  divForm.appendChild(tagH1);
+  divForm.appendChild(tagP);  
+});
+
+document.getElementById('limpar').addEventListener('click', function(event) {
+  for (let index = 0; index < inputs.length; index += 1) {
+    inputs[index].value = "";
+  }
+});
+
+
