@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício bloco 6 dia 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+  <form action="" method="get" id="form">
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <label for="">Nome</label>
+      <input id="name" type="text" maxlength="40" required> <br> <br>
+
+      <label for="">Email</label>
+      <input id="email" type="email" maxlength="50" required> <br> <br>
+
+      <label for="">CPF</label>
+      <input id="cpf" type="text maxlength="11" required> <br> <br>
+
+      <label for="">Endereço</label>
+      <input id="endereco" type="text" maxlength="200" required> <br> <br>
+
+      <label for="">Cidade</label>
+      <input id="cidade" type="text" maxlength="28" required> <br> <br>
+      
+      <label for="estados">Estado</label>
+      <select name="" id="estados" required></select> <br> <br>
+      
+      <input id="casa" class="moradia" type="radio">
+      <label for="casa">Casa</label> 
+
+      <input id="ap" class="moradia" type="radio">
+      <label for="ap">Apartamento</label>           
+    </fieldset>
+
+    <fieldset class="curriculo">
+      <legend>Currículo</legend>
+      <label for="">Resumo do currículo</label> <br>
+      <textarea name="" id="resumo" cols="30" rows="10" maxlength="1000" required="Campo Obrigatório"></textarea> <br> <br>
+    
+      <label for="">Cargo</label>
+      <input id="cargo" type="text" maxlength="40" required> <br> <br>
+      
+      <label for="">Descrição do Cargo</label>
+      <input id="descCargo" type="text" maxlength="500" required> <br> <br>
+
+      <label for="">Data de início</label>     
+      <input id="date" type="date" required="required" maxlength="10" name="date" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$" min="100-01-01" max="2050-12-31" />
+    </fieldset>
+    <button type="submit" id="enviar" class="btn-form">Eviar</button>    
+    <button type="reset" id="limpar" class="btn-form">Limpar</button>    
+  </form>
+  <script src="cript.js"></script>
+</body>
+</html>
+
