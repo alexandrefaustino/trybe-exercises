@@ -59,22 +59,26 @@
        
       <div class="field">
         <label class="label" for="estados">Estado</label>
-        <div class="select">
-          <select name="" id="estados" required></select>
-        </div>
+        <div class="control">
+          <div class="select">
+            <select name="" id="estados" required></select>
+          </div>
+        </div>        
       </div> 
       
-      <div class="control">
-        <label class="radio">
-          <input id="casa" type="radio" name="answer">
-            Casa
-        </label>
-        
-        <label class="radio">
-          <input id="ap" type="radio" name="answer">
-            Apartamento
-        </label>
-      </div> 
+      <div class="field">
+        <div class="control">
+          <label class="radio">
+            <input id="casa" type="radio" name="answer">
+              Casa
+          </label>
+          
+          <label class="radio">
+            <input id="ap" type="radio" name="answer">
+              Apartamento
+          </label>
+        </div> 
+      </div>      
       <br>
 
       <div class="field">
@@ -105,22 +109,12 @@
         </div>
       </div>  
       
-      <div class="field is-grouped">
-        <p class="control">
-          <a class="button is-primary">
-            Submit
-          </a>
-        </p>
-        <p class="control">
-          <a class="button is-light">
-            Cancel
-          </a>
-        </p>
-      </div>
-      
-      <button type="submit" id="enviar" class="btn-form">Eviar</button>    
-      <button type="reset" id="limpar" class="btn-form">Limpar</button>    
-       
+      <div class="field">
+        <div class="control">
+          <button type="submit" id="enviar" class="button is-primary">Enviar</button>
+          <button type="reset" id="limpar" class="button is-link">Limpar</button>        
+        </div>
+      </div>                       
     </form>
   </section> 
   <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script> 
