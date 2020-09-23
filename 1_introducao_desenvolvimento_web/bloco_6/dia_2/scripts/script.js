@@ -34,6 +34,7 @@ const cpf = document.getElementById('cpf');
 const endereco = document.getElementById('endereco');
 const cidade = document.getElementById('cidade');
 const estados = document.getElementById('estados');
+const data = document.getElementById('date');
 const inputs = document.getElementsByTagName('input');
 
 window.onload = function () {
@@ -45,9 +46,11 @@ window.onload = function () {
   }
 }
 
-function stopDefAction(event) {
-    event.preventDefault();
-}
+data.DatePickerX.init({
+  mondayFirst: true,
+  format: 'dd/mm/yyyy'
+});
+
 
 function createDiv() {
   const divForm = document.createElement('div');
@@ -66,15 +69,24 @@ function createH1() {
   return tagH1;  
 }
 
+function insertDatabasesInTagP(tag, divForm, ta) {
+  tag.innerText = `
+    Nome: ${nome.value} \n 
+    Email: ${email.value} \n 
+    CPF: ${cpf.value} \n 
+    Endereço: ${endereco.value} \n 
+    Cidade: ${cidade.value} ${estados.value} \n
+    Data de ínicio: ${data.value}`;   
+  divForm.appendChild(tag);  
+}
+
 document.getElementById('enviar').addEventListener('click', function(event) {
-  stopDefAction(event);
   const divForm = createDiv();
   const tagH1 = createH1();
   tagH1.innerText = 'Dados do Candidato';
-  const tagP = createParagraph();
-  tagP.innerText = `Nome: ${nome.value} \n Email: ${email.value} \n CPF: ${cpf.value} \n Endereço: ${endereco.value} \n Cidade: ${cidade.value} ${estados.value}`;
   divForm.appendChild(tagH1);
-  divForm.appendChild(tagP);  
+  const tagP = createParagraph();  
+  insertDatabasesInTagP(tagP, divForm);
 });
 
 document.getElementById('limpar').addEventListener('click', function(event) {
