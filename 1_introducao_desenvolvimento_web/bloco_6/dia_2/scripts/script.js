@@ -47,11 +47,9 @@ window.onload = function () {
 }
 
 data.DatePickerX.init({
-  mondayFirst: true,
   format: 'dd/mm/yyyy'
 });
-
-
+  
 function createDiv() {
   const divForm = document.createElement('div');
   divForm.classList.add('divForm');
@@ -93,6 +91,93 @@ document.getElementById('limpar').addEventListener('click', function(event) {
   for (let index = 0; index < inputs.length; index += 1) {
     inputs[index].value = "";
   }
+});
+
+new JustValidate('.js-form', {
+  rules: {
+    name: {
+      required: true,
+      maxLength: 40,
+      minLength: 3
+    },
+    email: {
+      required: true,
+      email: true
+    },
+    cpf: {
+      required: true,
+      maxLength: 11,
+      minLength: 11
+    },    
+    endereco: {
+      required: true,
+      maxLength: 200      
+    }, 
+    cidade: {
+      required: true,
+      maxLength: 28
+    },
+    estados: {
+      required: true
+    },
+    resumo: {
+      required: true,           
+      maxLength: 1000
+    },
+    cargo: {
+      required: true,           
+      maxLength: 40
+    },
+    descCargo: {
+      required: true,           
+      maxLength: 500
+    },
+    data: {
+      required: true
+    },
+  },  
+  messages: {    
+    name: {    
+      required:  'Campo obrigatório',  
+      maxLength: 'O campo deve conter no máximo :value characters',
+      minLength: 'O campo deve conter no mínimo :value characters',
+    },
+    email: {
+      required: 'Campo obrigatório',
+      email :   'Por favor, insira um e-mail válido', 
+    },
+    cpf: {
+      required:  'Campo obrigatório',
+      maxLength: 'O campo deve conter no máximo :value números',
+      minLength: 'O campo deve conter no mínimo :value números',
+    },
+    endereco: {    
+      required:  'Campo obrigatório',  
+      maxLength: 'O campo deve conter no máximo :value characters',      
+    },
+    cidade: {    
+      required:  'Campo obrigatório',  
+      maxLength: 'O campo deve conter no máximo :value characters',      
+    }, 
+    estados: {    
+      required:  'Campo obrigatório',      
+    },     
+    resumo: {    
+      required:  'Campo obrigatório',  
+      maxLength: 'O campo deve conter no máximo :value characters',      
+    },
+    cargo: {    
+      required:  'Campo obrigatório',  
+      maxLength: 'O campo deve conter no máximo :value characters',      
+    },
+    descCargo: {    
+      required:  'Campo obrigatório',  
+      maxLength: 'O campo deve conter no máximo :value characters',      
+    },
+    data: {    
+      required:  'Campo obrigatório',        
+    },
+  }, 
 });
 
 
