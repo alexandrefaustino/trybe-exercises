@@ -82,7 +82,7 @@
 }
 
 @media print {
-  .header , .navigation, .footer {
+  #header , #navigation, #footer {
     display: none;
   }
 
@@ -93,4 +93,35 @@
     margin: 0 0 0 4%;
     display: block;
   }
+}
+
+@media (max-width: 240px) {
+  #footer, #aside {
+    display: none;
+  }  
+
+  body {
+    padding: 0;    
+  }  
+
+  img {
+    width: 100%;
+    text-align: center;
+  }
+ 
+  #navigation li a {
+    width: 100%;    
+  }
+
+  #navigation ul {
+    margin-top: 80px;    
+  }
+
+  #header {
+    position: fixed;
+  }
+
+  #content {
+    width: 95%;    
+  }  
 }
