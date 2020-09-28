@@ -4,3 +4,82 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+@media (max-width: 400px) {
+  body {
+    background-color: bisque;
+  }
+
+  ul {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 800px){
+  body {
+    background-color: chocolate;
+  }
+
+  ul {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+  }
+}
+
+
+@media (min-width: 801px) and (max-width: 1300px){
+  header {
+    background-color: cornflowerblue;    
+  }
+
+  header p {
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  ul {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  p {
+    font-size: 24px;
+    text-align: justify;
+    line-height: 30px;
+  }
+}
