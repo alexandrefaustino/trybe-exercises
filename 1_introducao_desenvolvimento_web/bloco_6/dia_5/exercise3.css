@@ -125,3 +125,36 @@
     width: 95%;    
   }  
 }
+
+
+@media (min-width: 241px) and (max-width: 340px){
+  #footer, #aside {
+    display: none;
+  }  
+
+  body {
+    background-color: cornflowerblue;
+    padding: 0;    
+  }  
+
+  img {
+    width: 100%;
+    text-align: center;
+  }
+ 
+  #navigation li a {
+    width: 100%;    
+  }
+
+  #navigation ul {
+    margin-top: 80px;    
+  }
+
+  #header {
+    position: fixed;
+  }
+
+  #content {
+    width: 95%;    
+  }  
+}
