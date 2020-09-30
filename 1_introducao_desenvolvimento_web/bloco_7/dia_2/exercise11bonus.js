@@ -18,13 +18,13 @@ const lesson3 = {
   turno: 'noite',
 };
 
-const allLesson = Object.assign({}, {lesson1, lesson2, lesson3});
+const allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
 
 const countMathStudents = () => {
   let totalStudent = 0;
-  for (let key in allLesson) {
-    const discipline = allLesson[key].materia;
-    const student = allLesson[key].numeroEstudantes;
+  for (let key in allLessons) {
+    const discipline = allLessons[key].materia;
+    const student = allLessons[key].numeroEstudantes;
     if (discipline === 'Matemática') totalStudent += student      
   }
   return totalStudent;
