@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.button {
+  border-radius: 5px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  width: 65px;
+}
+
+.fire-button {
+  border-radius: 5px;
+  font-weight: 700;
+  width: 65px;
+}
+
+.psychic-button {
+  border-radius: 5px;
+  font-weight: 700;
+  margin-left: 20px;
+  width: 65px;
+}
+
+.pokemon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 auto;
+  min-width: 25%;
+  margin: 10px 10px;
+  border: 1px gray solid;
+  border-radius: 10px;
+}
+
+.pokedex {
+  flex-wrap: wrap;
+  margin: 10px 10px;
+}
