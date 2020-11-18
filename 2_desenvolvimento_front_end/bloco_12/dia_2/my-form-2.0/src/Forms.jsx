@@ -1,23 +1,16 @@
 import React, {Component} from 'react';
 import {Formik, Field, Form} from 'formik';
+import schema from './schema';
 
 class Forms extends Component {
-
   onSubmit(values, actions) {
     console.log("SUBMIT", values);
   }
-
-  validate(values) {
-    const errors = {}
-    if(!values.name) {
-      errors.name = '*';
-    }
-    return errors;
-  }
+  
   render() {
     return (
       <Formik
-        validate={this.validate}
+        validationSchema={schema}
         onSubmit={this.onSubmit}
         validateOnMount
         initialValues={{
