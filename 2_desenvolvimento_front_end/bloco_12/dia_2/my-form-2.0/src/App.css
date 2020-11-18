@@ -1,6 +1,5 @@
-.title {
-  text-align: center;
-  background-color: gray;
+.div {
+  margin-bottom: 5px;
 }
 
 .input {
@@ -10,4 +9,9 @@
 .span {
   margin-left: 5px;
   color: red;
+}
+
+.title {
+  text-align: center;
+  background-color: gray;
 }
