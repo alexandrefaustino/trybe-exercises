@@ -1,9 +1,9 @@
-import Form from './Form';
+import Forms from './Forms';
 import './App.css';
 function App() {
   return (
     <div className="App">
-      <Form />      
+      <Forms />      
     </div>
   );
 }
