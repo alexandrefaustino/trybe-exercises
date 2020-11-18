@@ -2,7 +2,15 @@
   margin-bottom: 5px;
 }
 
-.input {
+.inputCpf {
+  margin-left: 20px;
+}
+
+.inputEmail {
+  margin-left: 9px;
+}
+
+.inputName {
   margin-left: 5px;
 }
 

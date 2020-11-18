@@ -6,5 +6,7 @@ export default Yup.object().shape({
     .max(40, 'máximo 05 caracteres')
     .required('*'),
   email: Yup.string()
-    .email().max(50).required('*')
+    .email().max(50).required('*'),
+  cpf: Yup.string()
+    .min(11).max(11).required('*')
 })

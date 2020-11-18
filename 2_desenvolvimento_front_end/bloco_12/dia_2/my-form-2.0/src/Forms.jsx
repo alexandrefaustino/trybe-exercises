@@ -15,21 +15,29 @@ class Forms extends Component {
         validateOnMount
         initialValues={{
           name: "",
-          email: ""
+          email: "",
+          cpf: ""
         }}
         render={({ values, errors }) => (
-          <Form> 
+          <Form>
+            <h1 className="title">Formulario</h1>
             <fieldset>
               <div className="div">
                 <label>Nome</label>
-                <Field type="text" name="name" className="input"/>
+                <Field type="text" name="name" className="inputName"/>
                 {errors.name && (<span className="span">{errors.name}</span>)}
               </div>
               
               <div className="div">
                 <label>Email</label>
-                <Field type="email" name="email" className="input"/>
+                <Field type="email" name="email" className="inputEmail"/>
                 {errors.email && (<span className="span">{errors.email}</span>)} 
+              </div>
+
+              <div className="div">
+                <label>CPF</label>
+                <Field type="text" name="cpf" className="inputCpf"/>
+                {errors.cpf && (<span className="span">{errors.cpf}</span>)} 
               </div>
               
             </fieldset>
