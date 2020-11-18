@@ -3,34 +3,27 @@ import {Formik, Field, Form} from 'formik';
 
 class Forms extends Component {
 
-  validade(values) {
-    const errors = {}
-    if (!values.name) {
-      errors.name = "Nome Obrigatório"
-    }
-    return errors;
+  onSubmit(values, actions) {
+    console.log("SUBMIT", values);
   }
   render() {
     return (
       <Formik
+        onSubmit={this.onSubmit}
         validateOnMount
         initialValues={{
           name: ""
         }}
-        render={({ values, errors }) => (
-          <Form>
+        render={({ values, handleSubmit }) => (
+          <Form onSubmit={handleSubmit}> 
             <fieldset>
               <label>Nome</label>
-              <Field 
-                type="text" 
-                name="name" 
-                className="input"                    
-              />
-              {errors.name && (<span>{errors.name}</span>)}             
+              <Field type="text" name="name" className="input"/>              
             </fieldset>
+            <button type="submit">Enviar</button>
           </Form>        
-          )}           
-        />      
+        )}           
+      />      
     )
   }
 }
