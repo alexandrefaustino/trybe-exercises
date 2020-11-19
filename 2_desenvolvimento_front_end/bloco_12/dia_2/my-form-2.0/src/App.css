@@ -1,0 +1,60 @@
+.btnSubmit {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.btnClear {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.curriculum {
+  margin-left: 11px;
+  width: 300px;
+  height: 100px;
+}
+.div {
+  margin-bottom: 5px;
+}
+
+.inputAddress {
+  margin-left: 5px;
+}
+
+.inputCity {
+  margin-left: 23px;
+}
+
+.inputCpf {
+  margin-left: 46px;
+}
+
+.inputEmail {
+  margin-left: 35px;
+}
+
+.inputName {
+  margin-left: 31px;
+}
+
+.inputState {
+  margin-left: 23px;
+}
+
+.jobDescription {
+  margin-left: 5px;
+}
+
+.office {
+  margin-left: 99px;
+}
+
+.span {
+  margin-left: 10px;
+  color: red;
+}
+
+.title {
+  text-align: center;
+  background-color: gray;
+}
