@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Formik, Field, Form} from 'formik';
+import {Formik, Field, Form, ErrorMessage} from 'formik';
 import schema from './schema';
 
 class Forms extends Component {
@@ -32,20 +32,20 @@ class Forms extends Component {
           office: "",
           jobDescription: ""
         }}
-        render={({ values, errors }) => (
+        render={({ values, errors, isValid }) => (
           <Form>
             <h1 className="title">Formulário</h1>
             <fieldset>
               <div className="div">
                 <label>Nome</label>
-                <Field type="text" name="name" placeholder="nome" className="inputName"/>
-                {errors.name && (<span className="span">{errors.name}</span>)}
+                <Field type="text" name="name" placeholder="nome" className="inputName"/>                
+                <ErrorMessage name="name" className="span"/>
               </div>
               
               <div className="div">
                 <label>Email</label>
                 <Field type="email" name="email" placeholder="fulano@gmail.com" className="inputEmail"/>
-                {errors.email && (<span className="span">{errors.email}</span>)} 
+                <ErrorMessage name="email" className="span"/>
               </div>
 
               <div className="div">
@@ -113,7 +113,7 @@ class Forms extends Component {
                 {errors.jobDescription && (<span className="span">{errors.jobDescription}</span>)}
               </div>              
             </fieldset>
-            <button type="submit" className="btnSubmit">Enviar</button>
+            <button type="submit" disabled={!isValid} className="btnSubmit">Enviar</button>
             <button type="reset" onClick={this.handleReset} className="btnClear">Limpar</button>
           </Form>        
         )}           
