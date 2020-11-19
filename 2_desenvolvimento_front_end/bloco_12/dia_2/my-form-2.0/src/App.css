@@ -2,16 +2,28 @@
   margin-bottom: 5px;
 }
 
+.inputAddress {
+  margin-left: 5px;
+}
+
+.inputCity {
+  margin-left: 23px;
+}
+
 .inputCpf {
-  margin-left: 20px;
+  margin-left: 46px;
 }
 
 .inputEmail {
-  margin-left: 9px;
+  margin-left: 35px;
 }
 
 .inputName {
-  margin-left: 5px;
+  margin-left: 31px;
+}
+
+.inputState {
+  margin-left: 23px;
 }
 
 .span {
