@@ -1,3 +1,8 @@
+.curriculum {
+  margin-left: 5px;
+  width: 300px;
+  height: 100px;
+}
 .div {
   margin-bottom: 5px;
 }
@@ -24,6 +29,10 @@
 
 .inputState {
   margin-left: 23px;
+}
+
+.office {
+  margin-left: 93px;
 }
 
 .span {

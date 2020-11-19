@@ -6,6 +6,10 @@ class Forms extends Component {
   onSubmit(values, actions) {
     console.log("SUBMIT", values);
   }
+
+  onMouseEnter() {
+    alert('Preencha com cuidado essa informação');
+  }
   
   render() {
     return (
@@ -21,7 +25,9 @@ class Forms extends Component {
           city: "",
           state: "",
           type: "",
-          picked: false
+          picked: false,
+          curriculum: "",
+          office: ""
         }}
         render={({ values, errors }) => (
           <Form>
@@ -82,8 +88,21 @@ class Forms extends Component {
                     <Field type="radio" name="picked" value="Two" />
                       Apartamento
                   </label>                
+              </div>              
+            </fieldset>
+            
+            <fieldset>
+              <div className="div">
+                <label>Resumo curricular</label>
+                <Field type="textarea" name="curriculum" className="curriculum"/>
+                {errors.curriculum && (<span className="span">{errors.curriculum}</span>)}
               </div>
-              
+
+              <div className="div">
+                <label>Cargo</label>
+                <Field type="textarea" name="office" onMouseEnter={this.onMouseEnter} className="office"/>
+                {errors.office && (<span className="span">{errors.office}</span>)}
+              </div>
             </fieldset>
             <button type="submit">Enviar</button>
           </Form>        

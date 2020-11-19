@@ -24,6 +24,11 @@ export default Yup.object().shape({
     .required('*'),
   state: Yup.string()
     .required('*'),
-  picked: Yup.boolean
-    .required('*'),
+  picked: Yup.boolean(),
+  curriculum: Yup.string()
+    .required('*').max(1000),
+  office: Yup.string()
+    .max(40).required('*'),
+  jobDescription: Yup.string()
+    .max(500).required('*'),
 })
