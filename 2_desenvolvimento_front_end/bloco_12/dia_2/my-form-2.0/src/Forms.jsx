@@ -10,6 +10,8 @@ class Forms extends Component {
   onMouseEnter() {
     alert('Preencha com cuidado essa informação');
   }
+
+  handleReset: () => void;
   
   render() {
     return (
@@ -27,7 +29,8 @@ class Forms extends Component {
           type: "",
           picked: false,
           curriculum: "",
-          office: ""
+          office: "",
+          jobDescription: ""
         }}
         render={({ values, errors }) => (
           <Form>
@@ -100,11 +103,18 @@ class Forms extends Component {
 
               <div className="div">
                 <label>Cargo</label>
-                <Field type="textarea" name="office" onMouseEnter={this.onMouseEnter} className="office"/>
+                <Field type="text" name="office" onMouseEnter={this.onMouseEnter} className="office"/>
                 {errors.office && (<span className="span">{errors.office}</span>)}
               </div>
+
+              <div className="div">
+                <label>Descrição do cargo</label>
+                <Field type="textarea" name="jobDescription" className="jobDescription"/>
+                {errors.jobDescription && (<span className="span">{errors.jobDescription}</span>)}
+              </div>              
             </fieldset>
-            <button type="submit">Enviar</button>
+            <button type="submit" className="btnSubmit">Enviar</button>
+            <button type="reset" onClick={this.handleReset} className="btnClear">Limpar</button>
           </Form>        
         )}           
       />      
