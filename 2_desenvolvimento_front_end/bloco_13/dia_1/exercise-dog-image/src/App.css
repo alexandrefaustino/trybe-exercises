@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.img {
+  border: black;
+  display: inline-block;
+  height: 200px;
+  margin-left: 5px;
+}
