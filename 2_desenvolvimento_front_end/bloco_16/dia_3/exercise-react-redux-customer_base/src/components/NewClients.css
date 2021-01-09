@@ -1,0 +1,19 @@
+.button-register {
+  background-color: #066a75;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  width: 335px;
+  height: 25px;
+}
+
+.input {
+  width: 30%;
+}
+
+.label {
+  display: block;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
