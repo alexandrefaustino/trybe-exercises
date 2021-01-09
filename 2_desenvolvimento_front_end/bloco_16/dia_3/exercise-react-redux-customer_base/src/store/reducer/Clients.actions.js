@@ -1,7 +1,7 @@
 const ADDCLIENTS = 'ADDCLIENTS'
-export function addClients (obj) { 
+export function addClients (name, idade, email) { 
   return {
     type: ADDCLIENTS,
-    payload: [obj]
+    payload: {name, idade, email}
   }  
 }
