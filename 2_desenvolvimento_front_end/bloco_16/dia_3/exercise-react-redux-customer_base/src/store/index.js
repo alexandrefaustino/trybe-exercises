@@ -1,5 +1,5 @@
 import {createStore, combineReducers} from 'redux';
-import { listClientsReducer } from './reducer/Clients.reducer';
+import listClientsReducer  from './reducer/Clients.reducer';
 
 const rootReducer = combineReducers({
   listClients: listClientsReducer,

@@ -14,13 +14,12 @@ body {
   width: 90%;
 }
 
-.button-register {
+.button-register-user {
   background-color: rgb(234, 247, 255);
   border: 1px solid rgb(218, 165, 32);
   font-size: 10px;
   font-weight: 700;
-  margin-left: 7px;
-  
+  margin-left: 7px;  
 }
 
 .div-login {
@@ -74,5 +73,6 @@ p {
   font-size: 10px;   
   padding-left: 96px;  
   padding-top: 8px;
+  height: 70%;
 }
 

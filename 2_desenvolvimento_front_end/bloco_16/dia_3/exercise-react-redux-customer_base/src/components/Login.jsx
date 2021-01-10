@@ -23,8 +23,8 @@ class Login extends Component {
         <div className="div-register">
           <p>
             Ainda não tem conta?
-            <button className="button-register">
-              <Link to="/newClients">Cadastre-se</Link>              
+            <button className="button-register-user">
+              <Link to="/newClients">Cadastre-se</Link>
             </button>            
           </p>
         </div>   
