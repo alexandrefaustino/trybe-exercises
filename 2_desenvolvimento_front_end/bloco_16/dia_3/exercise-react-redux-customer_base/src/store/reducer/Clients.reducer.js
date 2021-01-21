@@ -1,8 +1,10 @@
+import { ADDCLIENTS } from './Clients.actions';
+
 const CLIENTS = [];
 
 function listClientsReducer(state = CLIENTS, action) {
   switch(action.type) {
-    case 'ADDCLIENTS':
+    case ADDCLIENTS:
       return [...state, action.payload];
     default:
       return state;

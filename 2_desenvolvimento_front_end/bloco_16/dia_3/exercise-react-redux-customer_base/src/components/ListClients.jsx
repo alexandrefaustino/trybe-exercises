@@ -4,13 +4,16 @@ import { connect } from "react-redux";
 
 class ListClients extends Component {
   render() {
-    const { clients } = this.props;
-    console.log(clients);
+    const { clients } = this.props;    
     return(
       <div>
         <Link to="/">Página inicial</Link>
         <h1>Lista de Cliente Cadastrados</h1>
-        <p>{clients}</p>        
+        {
+          clients.map((client, index) => (
+            <p key={index}>{client.name}</p>
+          ))
+        }
       </div>      
     )
   }
