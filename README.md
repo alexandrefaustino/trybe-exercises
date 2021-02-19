@@ -110,7 +110,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 ##### Bloco 14: Metodologias Ágeis
 
 - [x] 14-1: _Metodologias Ágeis_
-- [x] 14-2: _[Projeto - Frontend Online Store]()_
+- [x] 14-2: _[Projeto - Frontend Online Store](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_14/dia_1/sd-07-project-frontend-online-store)_
 
 ##### Bloco 15: Testes em React
 
