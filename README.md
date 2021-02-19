@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web ::heavy_check_mark:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ##### Bloco 1: Introdução - Unix & Shell
 
@@ -87,19 +87,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 10-3: _Jest - Simulando comportamentos_
 - [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_10/dia_4/sd-07-project-jest-trybe)_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :heavy_check_mark:
 
 ##### Bloco 11: Introdução - React
 
-- [x] 11-1: _'Hello, world!' no React!_
+- [x] 11-1: _ React - 'Hello, world!'_
 - [x] 11-2: _Componentes React_
-- [x] 11-3: _[Projeto - Movie Cards Library]()_
+- [x] 11-3: _[Projeto - Movie Cards Library](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_11/dia_3/sd-07-project-movie-cards-library)_
 
 ##### Bloco 12: React
 
-- [x] 12-1: _Components com estado_
-- [x] 12-2: _Eventos e formulários no React_
-- [x] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [x] 12-1: _Components com estado e eventos_
+- [x] 12-2: _Formulários no React_
+- [x] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_12/dia_3/sd-07-project-movie-card-library-stateful)_
 
 ##### Bloco 13: React
 
