@@ -32,19 +32,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [x] 4-1: _JavaScript - Primeiros passos_
 - [x] 4-2: _JavaScript - Array e loop For_
-- [x] 4-3: _JavaScript - Objetos e funções_
-- [x] 4-4: _JavaScript - DOM e seletores_
-- [x] 4-5: _JavaScript - Trabalhando com elementos_
-- [x] 4-6: _JavaScript - Eventos_
-- [x] 4-7: _JavaScript - Web Storage_
+- [x] 4-3: _JavaScript - Lógica de Programação e Algorítmos_
+- [x] 4-4: _JavaScript - Objetos e funções_
+- [x] 4-5: _[Projeto - HTML & CSS](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_4/dia_5/sd-07-project-playground-functions)_
 
-##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [x] 5-1: _[Projeto - Meme Generator](https://gomesanac.github.io/projetos/meme-generator/index.html)_
-- [x] 5-2: _[Projeto - Arte com Pixels](https://gomesanac.github.io/projetos/pixels-art/index.html)_
-- [x] 5-3: _[Projeto - Lista de tarefas](https://gomesanac.github.io/projetos/todo-list/index.html)_
-- [x] 5-4: _[Projeto - Adivinhe a Cor](https://gomesanac.github.io/projetos/color-guess/index.html)_
-- [x] 5-5: _[Projeto - Carta Misteriosa](https://gomesanac.github.io/projetos/mistery-letter/index.html)_
+##### Bloco 5: Introdução - JavaScript: DOM, Eventos e Web Storage
+
+- [x] 5-1: _JavaScript - DOM e seletores
+- [x] 5-2: _JavaScript - Trabalhando com elementos
+- [x] 5-3: _JavaScript - Eventos
+- [x] 5-4: _JavaScript - Web Storage
+##### Bloco 5: JavaScript - Projetos
+- [x] 5-5: _[Projeto - Meme Generator](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_5/sd-07-block5-project-meme-generator)_
+- [x] 5-6: _[Projeto - Arte com Pixels](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_6/sd-07-block5-project-pixels-art)_
+- [x] 5-7: _[Projeto - Lista de tarefas](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_7/sd-07-block5-project-todo-list)_
+- [x] 5-8: _[Projeto - Adivinhe a Cor](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_8/sd-07-project-color-guess)_
+- [x] 5-9: _[Projeto - Carta Misteriosa](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_9/sd-07-project-mistery-letter)_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
