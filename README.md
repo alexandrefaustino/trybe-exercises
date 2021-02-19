@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web ::heavy_check_mark:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ##### Bloco 1: Introdução - Unix & Shell
 
@@ -39,10 +39,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ##### Bloco 5: Introdução - JavaScript: DOM, Eventos e Web Storage
 
-- [x] 5-1: _JavaScript - DOM e seletores
-- [x] 5-2: _JavaScript - Trabalhando com elementos
-- [x] 5-3: _JavaScript - Eventos
-- [x] 5-4: _JavaScript - Web Storage
+- [x] 5-1: _JavaScript - DOM e seletores_
+- [x] 5-2: _JavaScript - Trabalhando com elementos_
+- [x] 5-3: _JavaScript - Eventos_
+- [x] 5-4: _JavaScript - Web Storage_
 ##### JavaScript - Projetos
 - [x] 5-5: _[Projeto - Meme Generator](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_5/sd-07-block5-project-meme-generator)_
 - [x] 5-6: _[Projeto - Arte com Pixels](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_6/sd-07-block5-project-pixels-art)_
@@ -85,48 +85,48 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Testes Assíncronos_
 - [x] 10-3: _Jest - Simulando comportamentos_
-- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
+- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_10/dia_4/sd-07-project-jest-trybe)_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :heavy_check_mark:
 
 ##### Bloco 11: Introdução - React
 
-- [x] 11-1: _'Hello, world!' no React!_
+- [x] 11-1: _React - 'Hello, world!'_
 - [x] 11-2: _Componentes React_
-- [x] 11-3: _[Projeto - Movie Cards Library]()_
+- [x] 11-3: _[Projeto - Movie Cards Library](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_11/dia_3/sd-07-project-movie-cards-library)_
 
-##### Bloco 12: React
+##### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
-- [x] 12-1: _Components com estado_
-- [x] 12-2: _Eventos e formulários no React_
-- [x] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [x] 12-1: _Components com estado e eventos_
+- [x] 12-2: _Formulários no React_
+- [x] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_12/dia_3/sd-07-project-movie-card-library-stateful)_
 
-##### Bloco 13: React
+##### Bloco 13: Ciclo de vida de Componentes e React Router
 
-- [x] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [x] 13-2: _Ciclo de vida de componentes em React_
-- [x] 13-3: _React Router_
-- [x] 13-4: _[Projeto - Movie Cards Library CRUD]()_
+- [x] 13-1: _Ciclo de vida de componentes em React_
+- [x] 13-2: _React Router_
+- [x] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_13/dia_3/sd-07-project-movie-card-library-crud)_
 
 ##### Bloco 14: Metodologias Ágeis
 
 - [x] 14-1: _Metodologias Ágeis_
-- [x] 14-2: _[Projeto - Frontend Online Store]()_
+- [x] 14-2: _[Projeto - Frontend Online Store](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_14/dia_1/sd-07-project-frontend-online-store)_
 
-##### Bloco 15: Testes em React
+##### Bloco 15: Testes automatizados com React Testing Library
 
-- [x] 15-1: _Testando React com a React Testing Library_
-- [x] 15-2: _Testando React com a React Testing Library - Parte 2_
-- [x] 15-3: _[Projeto - Testes em React]()_
+- [x] 15-1: _RTL - Primeiros passos_
+- [x] 15-2: _RTL - Mocks e Inputs_
+- [x] 15-2: _RTL - Testando React Router_
+- [x] 15-4: _[Projeto - Testes em React](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_15/dia_4/sd-07-project-react-testing-library)_
 
-##### Bloco 16: Introdução ao Redux
+##### Bloco 16: Gerenciamento de estado com Redux
 
-- [x] 16-1: _Introdução ao Redux_
-- [x] 16-2: _React com Redux - Parte 1_
-- [x] 16-3: _React com Redux - Prática_
-- [x] 16-4: _React com Redux - Parte 2_
-- [x] 16-5: _Testes síncronos com React-Redux_
-- [x] 16-6: _[Projeto - Tabela com filtros de dados]()_
+- [x] 16-1: _Introdução ao Redux - O estado global da aplicação_
+- [x] 16-2: _Usando o Redux no React_
+- [x] 16-3: _Usando o Redux no React - Prática_
+- [x] 16-4: _Usando o Redux no React - Actions Assíncronas_
+- [x] 16-5: _Testes em React-Redux_
+- [x] 16-6: _[Projeto - Trybe Wallet](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_16/dia_6/sd-07-project-trybewallet)_
 
 ##### Bloco 17: Projeto React
 
