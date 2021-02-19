@@ -50,24 +50,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 5-8: _[Projeto - Adivinhe a Cor](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_8/sd-07-project-color-guess)_
 - [x] 5-9: _[Projeto - Carta Misteriosa](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_9/sd-07-project-mistery-letter)_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
-
-##### Bloco 6: Introdução - Front-end
+##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _[Projeto - Página inicial do Facebook](https://gomesanac.github.io/projetos/facebook-page/index.html)_
+- [x] 6-6: _[Projeto - Página inicial do Facebook](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_6/dia_6/sd-07-project-facebook-signup)_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Testes unitários em JavaScript_
-- [x] 7-4: _Testando em pequenos passos_
-- [x] 7-5: _[Projeto - JavaScript Testes Unitários]()_
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_7/dia_4/sd-07-project-js-unit-tests)_
 
 ##### Bloco 8: JavaScript ES6
 
@@ -84,6 +81,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 9-4: _[Projeto - Carrinho de Compras]()_
 
 ##### Bloco 10: Jest
+
+## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 - [x] 10-1: _Jest - Testes Assíncronos_
 - [x] 10-2: _Jest - Simulando comportamentos_
