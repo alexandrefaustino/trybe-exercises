@@ -39,10 +39,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ##### Bloco 5: Introdução - JavaScript: DOM, Eventos e Web Storage
 
-- [x] 5-1: _JavaScript - DOM e seletores
-- [x] 5-2: _JavaScript - Trabalhando com elementos
-- [x] 5-3: _JavaScript - Eventos
-- [x] 5-4: _JavaScript - Web Storage
+- [x] 5-1: _JavaScript - DOM e seletores_
+- [x] 5-2: _JavaScript - Trabalhando com elementos_
+- [x] 5-3: _JavaScript - Eventos_
+- [x] 5-4: _JavaScript - Web Storage_
 ##### JavaScript - Projetos
 - [x] 5-5: _[Projeto - Meme Generator](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_5/sd-07-block5-project-meme-generator)_
 - [x] 5-6: _[Projeto - Arte com Pixels](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_6/sd-07-block5-project-pixels-art)_
@@ -91,22 +91,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ##### Bloco 11: Introdução - React
 
-- [x] 11-1: _ React - 'Hello, world!'_
+- [x] 11-1: _React - 'Hello, world!'_
 - [x] 11-2: _Componentes React_
 - [x] 11-3: _[Projeto - Movie Cards Library](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_11/dia_3/sd-07-project-movie-cards-library)_
 
-##### Bloco 12: React
+##### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
 - [x] 12-1: _Components com estado e eventos_
 - [x] 12-2: _Formulários no React_
 - [x] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_12/dia_3/sd-07-project-movie-card-library-stateful)_
 
-##### Bloco 13: React
+##### Bloco 13: Ciclo de vida de Componentes e React Router
 
-- [x] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [x] 13-2: _Ciclo de vida de componentes em React_
-- [x] 13-3: _React Router_
-- [x] 13-4: _[Projeto - Movie Cards Library CRUD]()_
+- [x] 13-1: _Ciclo de vida de componentes em React_
+- [x] 13-2: _React Router_
+- [x] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_13/dia_3/sd-07-project-movie-card-library-crud)_
 
 ##### Bloco 14: Metodologias Ágeis
 
