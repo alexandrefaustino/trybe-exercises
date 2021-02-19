@@ -112,20 +112,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 14-1: _Metodologias Ágeis_
 - [x] 14-2: _[Projeto - Frontend Online Store](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_14/dia_1/sd-07-project-frontend-online-store)_
 
-##### Bloco 15: Testes em React
+##### Bloco 15: Testes automatizados com React Testing Library
 
-- [x] 15-1: _Testando React com a React Testing Library_
-- [x] 15-2: _Testando React com a React Testing Library - Parte 2_
-- [x] 15-3: _[Projeto - Testes em React]()_
+- [x] 15-1: _RTL - Primeiros passos_
+- [x] 15-2: _RTL - Mocks e Inputs_
+- [x] 15-2: _RTL - Testando React Router_
+- [x] 15-4: _[Projeto - Testes em React](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_15/dia_4/sd-07-project-react-testing-library)_
 
-##### Bloco 16: Introdução ao Redux
+##### Bloco 16: Gerenciamento de estado com Redux
 
-- [x] 16-1: _Introdução ao Redux_
-- [x] 16-2: _React com Redux - Parte 1_
-- [x] 16-3: _React com Redux - Prática_
-- [x] 16-4: _React com Redux - Parte 2_
-- [x] 16-5: _Testes síncronos com React-Redux_
-- [x] 16-6: _[Projeto - Tabela com filtros de dados]()_
+- [x] 16-1: _Introdução ao Redux - O estado global da aplicação_
+- [x] 16-2: _Usando o Redux no React_
+- [x] 16-3: _Usando o Redux no React - Prática_
+- [x] 16-4: _Usando o Redux no React - Actions Assíncronas_
+- [x] 16-5: _Testes em React-Redux_
+- [x] 16-6: _[Projeto - Trybe Wallet](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_16/dia_6/sd-07-project-trybewallet)_
 
 ##### Bloco 17: Projeto React
 
