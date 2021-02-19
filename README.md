@@ -66,27 +66,28 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 7-3: _Testes unitários em JavaScript_
 - [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_7/dia_4/sd-07-project-js-unit-tests)_
 
-##### Bloco 8: JavaScript ES6
+##### Bloco 8: Higher Order Functions do JavaScript ES6
 
 - [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort_
-- [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e reduce_
-- [x] 8-3: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [x] 8-4: _[Projeto - Zoo functions]()_
+- [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [x] 8-5: _[Projeto - Zoo functions](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_8/dia_5/sd-07-project-zoo-functions)_
 
-##### Bloco 9: Assincronicidade & Callbacks
+##### Bloco 9: JavaScript Assíncrono & Promises
 
-- [x] 9-1: _Primeiros passos no Jest_
-- [x] 9-2: _JavaScript Assíncrono e Callbacks_
-- [x] 9-3: _JavaScript Promises_
-- [x] 9-4: _[Projeto - Carrinho de Compras]()_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Promises_
+- [x] 9-3: _[Projeto - Carrinho de Compras](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_9/dia_3/sd-07-project-shopping-cart)_
 
 ##### Bloco 10: Jest
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+- [x] 10-1: _Primeiros passos no Jest_
+- [x] 10-2: _Jest - Testes Assíncronos_
+- [x] 10-3: _Jest - Simulando comportamentos_
+- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
-- [x] 10-1: _Jest - Testes Assíncronos_
-- [x] 10-2: _Jest - Simulando comportamentos_
-- [x] 10-3: _[Projeto - Jest Assíncrono e Mocking]()_
+## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução - React
 
