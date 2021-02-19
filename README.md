@@ -43,7 +43,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 5-2: _JavaScript - Trabalhando com elementos
 - [x] 5-3: _JavaScript - Eventos
 - [x] 5-4: _JavaScript - Web Storage
-##### Bloco 5: JavaScript - Projetos
+##### JavaScript - Projetos
 - [x] 5-5: _[Projeto - Meme Generator](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_5/sd-07-block5-project-meme-generator)_
 - [x] 5-6: _[Projeto - Arte com Pixels](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_6/sd-07-block5-project-pixels-art)_
 - [x] 5-7: _[Projeto - Lista de tarefas](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_5/dia_7/sd-07-block5-project-todo-list)_
