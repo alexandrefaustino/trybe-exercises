@@ -74,7 +74,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [x] 8-5: _[Projeto - Zoo functions](https://github.com/alexandrefaustino/trybe-exercises/tree/main/1_introducao_desenvolvimento_web/bloco_8/dia_5/sd-07-project-zoo-functions)_
 
-##### Bloco 9: JavaScript Assíncrono & Promises
+##### Bloco 9: JavaScript Assíncrono e Promises
 
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [x] 9-2: _JavaScript Promises_
