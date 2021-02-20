@@ -116,7 +116,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [x] 15-1: _RTL - Primeiros passos_
 - [x] 15-2: _RTL - Mocks e Inputs_
-- [x] 15-2: _RTL - Testando React Router_
+- [x] 15-3: _RTL - Testando React Router_
 - [x] 15-4: _[Projeto - Testes em React](https://github.com/alexandrefaustino/trybe-exercises/tree/main/2_desenvolvimento_front_end/bloco_15/dia_4/sd-07-project-react-testing-library)_
 
 ##### Bloco 16: Gerenciamento de estado com Redux
@@ -164,7 +164,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
 - [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [ ] 22-3: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [ ] 22-3: _[Projeto - One For All]()_
 
 ##### Bloco 23: Introdução ao MongoDB
@@ -193,7 +193,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 26-3: _NodeJS - Arquitetura_
 - [ ] 26-4: _Express: HTTP com Node.js_
 - [ ] 26-5: _Praticando Express_
-- [ ] 26-5: _[Projeto - Crush Manager]()_
+- [ ] 26-6: _[Projeto - Crush Manager]()_
 
 ##### Bloco 27: NodeJS
 
