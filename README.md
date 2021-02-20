@@ -162,36 +162,38 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ##### Bloco 22: Normalização e Modelagem de Banco de Dados
 
-- [] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [] 22-2: _Normalização, Formas Normais e Dumps_
-- [] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [] 22-3: _[Projeto - One For All]()_
+- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [ ] 22-2: _Normalização, Formas Normais e Dumps_
+- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [ ] 22-3: _[Projeto - One For All]()_
 
 ##### Bloco 23: Introdução ao MongoDB
 
-- [] 23-1: _MongoDB - Introdução_
-- [] 23-2: _Filter Operators_
-- [] 23-3: _[Projeto - Data Flights]()_
+- [ ] 23-1: _MongoDB - Introdução_
+- [ ] 23-2: _Filter Operators_
+- [ ] 23-3: _[Projeto - Data Flights]()_
 
-##### Bloco 24: Updates
+##### Bloco 24: MongoDB: Updates Simples e Complexos
 
-- [x] 24-1: _Updates Simples_
-- [x] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [x] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [x] 24-4: _[Projeto - Commerce]()_
+- [ ] 24-1: _Updates Simples_
+- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [ ] 24-4: _[Projeto - Commerce]()_
 
-##### Bloco 25: Aggregation Framework
+##### Bloco 25: MongoDB: Aggregation Framework
 
-- [x] 25-1: _Aggregation Framework - Part 1_
-- [x] 25-2: _Aggregation Framework - Part 2_
-- [x] 25-3: _[Projeto - Aggregations]()_
+- [ ] 25-1: _Aggregation Framework - Part 1_
+- [ ] 25-2: _Aggregation Framework - Part 2_
+- [ ] 25-3: _[Projeto - Aggregations]()_
 
-##### Bloco 26: Intro - NodeJS
+##### Bloco 26: Introdução ao desenvolvimento Web com NodeJS
 
-- [x] 26-1: _NodeJS - Introdução_
-- [x] 26-2: _NodeJS - Fluxo Assíncrono_
+- [ ] 26-1: _NodeJS - Introdução_
+- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
 - [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
+- [ ] 26-4: _Express: HTTP com Node.js_
+- [ ] 26-5: _Praticando Express_
+- [ ] 26-5: _[Projeto - Crush Manager]()_
 
 ##### Bloco 27: NodeJS
 
