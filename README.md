@@ -275,7 +275,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 ##### Bloco 39: Estrutura de Dados: Pilhas, Filas e Listas
 - [ ] 39-1: _Estrutura de Dados III - Pilhas_
 - [ ] 39-2: _Estrutura de Dados II - Deque_
-- [ ] 39-2: _Estrutura de Dados II - Nó & Listas ligadas_
-- [ ] 39-2: _Estrutura de Dados II - Listas duplamente ligadas_
-- [ ] 39-3: _[Projeto - Restaurant Orders]()_
+- [ ] 39-3: _Estrutura de Dados II - Nó & Listas ligadas_
+- [ ] 39-4: _Estrutura de Dados II - Listas duplamente ligadas_
+- [ ] 39-5: _[Projeto - TING - Trybe Is Not Google]()_
 # [...]
