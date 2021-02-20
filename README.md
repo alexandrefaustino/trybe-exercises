@@ -202,17 +202,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 27-3: _Arquitetura web - Rest e Restful_
 - [ ] 27-4: _[Projeto - Store Manager]()_
 
-##### Bloco 28: NodeJS
+##### Bloco 28: Autenticação e Upload de Arquivos
 
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
+- [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
+- [ ] 28-2: _NodeJS - Upload de arquivos com Multer_
+- [ ] 28-3: _[Projeto - Cookmaster]()_
 
-##### Bloco 29: NodeJS
+##### Bloco 29: Deployment
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
+- [ ] 29-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 29-2: _Deploy - Gerenciadores de Processos_
+- [ ] 29-3: _[Projeto - Stranger Things]()_
 
 ##### Bloco 30: Introdução - Deploy
 
