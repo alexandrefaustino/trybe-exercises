@@ -214,29 +214,24 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 29-2: _Deploy - Gerenciadores de Processos_
 - [ ] 29-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 30: Introdução - Deploy
+##### Bloco 30: Projeto
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+- [ ] 30-1: _[Projeto - Trybeer]()_
 
-##### Bloco 31: Projeto
+##### Bloco 31: Arquitetura: SOLID E ORM
 
-- [ ] 31-1: _[Projeto - Trybeer]()_
+- [ ] 31-1: _Arquitetura - Princípios SOLID_
+- [ ] 31-2: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 31-3: _ORM - Associations_
+- [ ] 31-4: _Boas práticas na escrita de testes_
+- [ ] 31-5: _[Projeto - API de Blogs]()_
 
-##### Bloco 32: Arquitetura de Software
+##### Bloco 32: Sockets
 
-- [ ] 32-1: _Arquitetura - Princípios SOLID_
-- [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas práticas na escrita de testes_
-- [ ] 32-3: _[Projeto - API de Blogs]()_
-
-##### Bloco 33: Sockets
-
-- [ ] 30-1: _Sockets - TCP/UDP & NET_
-- [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _[Projeto - Webchat]()_
+- [ ] 32-1: _Arquitetura de Software - Camada de View_
+- [ ] 32-2: _Sockets - TCP/UDP & NET_
+- [ ] 32-3: _Sockets - Socket.io_
+- [ ] 30-4: _[Projeto - Webchat]()_
 
 ##### Bloco 34: Projeto
 
