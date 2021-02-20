@@ -195,11 +195,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 26-5: _Praticando Express_
 - [ ] 26-6: _[Projeto - Crush Manager]()_
 
-##### Bloco 27: NodeJS
+##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]()_
+- [ ] 27-1: _Introdução - Arquitetura de Software - Camada de Model_
+- [ ] 27-2: _Arquitetura de Software - Camada de Controller e Service_
+- [ ] 27-3: _Arquitetura web - Rest e Restful_
+- [ ] 27-4: _[Projeto - Store Manager]()_
 
 ##### Bloco 28: NodeJS
 
