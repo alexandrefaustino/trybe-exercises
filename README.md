@@ -165,7 +165,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 22-1: _Transformando ideias em um modelo de banco de dados_
 - [x] 22-2: _Normalização, Formas Normais e Dumps_
 - [x] 22-3: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-4: _[Projeto - One For All]()_
+- [x] 22-4: _[Projeto - One For All](https://github.com/alexandrefaustino/trybe-exercises/tree/main/3_desenvolvimento_back_end/bloco_22/dia_4/sd-07-mysql-one-for-all)_
 
 ##### Bloco 23: Introdução ao MongoDB
 
