@@ -178,7 +178,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 24-1: _Updates Simples_
 - [x] 24-2: _Updates Complexas - Arrays - Parte 1_
 - [x] 24-3: _Updates Complexas - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]()_
+- [x] 24-4: _[Projeto - Commerce](https://github.com/alexandrefaustino/trybe-exercises/tree/main/3_desenvolvimento_back_end/bloco_24/dia_4/sd-07-mongodb-commerce)_
 
 ##### Bloco 25: MongoDB: Aggregation Framework
 
