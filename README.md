@@ -184,7 +184,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [x] 25-1: _Aggregation Framework - Part 1_
 - [x] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
+- [x] 25-3: _[Projeto - Aggregations](https://github.com/alexandrefaustino/trybe-exercises/tree/main/3_desenvolvimento_back_end/bloco_25/dia_3/sd-07-mongodb-aggregations)_
 
 ##### Bloco 26: Introdução ao desenvolvimento Web com NodeJS
 
