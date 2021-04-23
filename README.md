@@ -197,10 +197,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 27-1: _Introdução - Arquitetura de Software - Camada de Model_
-- [ ] 27-2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 27-3: _Arquitetura web - Rest e Restful_
-- [ ] 27-4: _[Projeto - Store Manager]()_
+- [x] 27-1: _Introdução - Arquitetura de Software - Camada de Model_
+- [x] 27-2: _Arquitetura de Software - Camada de Controller e Service_
+- [x] 27-3: _Arquitetura web - Rest e Restful_
+- [x] 27-4: _[Projeto - Store Manager](https://github.com/tryber/sd-07-store-manager/tree/alexandrefaustino-sd-07-store-manager)_
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
 
