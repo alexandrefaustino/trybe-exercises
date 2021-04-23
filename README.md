@@ -192,8 +192,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 26-2: _NodeJS - Fluxo Assíncrono_
 - [x] 26-3: _NodeJS - Arquitetura_
 - [x] 26-4: _Express: HTTP com Node.js_
-- [ ] 26-5: _Praticando Express_
-- [ ] 26-6: _[Projeto - Crush Manager]()_
+- [x] 26-5: _Praticando Express_
+- [x] 26-6: _[Projeto - Crush Manager](https://github.com/tryber/sd-07-crush-manager/tree/alexandrefaustino-sd-07-crush-manager)_
 
 ##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
