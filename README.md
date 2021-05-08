@@ -204,14 +204,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
 
-- [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 28-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 28-3: _[Projeto - Cookmaster]()_
+- [x] 28-1: _NodeJS - JWT - (JSON Web Token)_
+- [x] 28-2: _NodeJS - Upload de arquivos com Multer_
+- [x] 28-3: _[Projeto - Cookmaster](https://github.com/tryber/sd-07-cookmaster/tree/alexandrefaustino-cookmaster)_
 
 ##### Bloco 29: Deployment
 
-- [ ] 29-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 29-2: _Deploy - Gerenciadores de Processos_
+- [x] 29-1: _Infraestrutura - Deploy com Heroku_
+- [x] 29-2: _Deploy - Gerenciadores de Processos_
 - [ ] 29-3: _[Projeto - Stranger Things]()_
 
 ##### Bloco 30: Projeto
