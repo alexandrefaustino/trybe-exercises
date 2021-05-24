@@ -212,7 +212,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [x] 29-1: _Infraestrutura - Deploy com Heroku_
 - [x] 29-2: _Deploy - Gerenciadores de Processos_
-- [ ] 29-3: _[Projeto - Stranger Things]()_
+- [x] 29-3: _[Projeto - Stranger Things - FrontEnd](https://github.com/tryber/sd-07-stranger-things-frontend/tree/alexandrefaustino-stranger-things-frontend)_
+- [x] 29-3: _[Projeto - Stranger Things - BackEnd](https://github.com/tryber/sd-07-stranger-things-backend/tree/alexandrefaustino-sd-07-stranger-things-backend)_
 
 ##### Bloco 30: Projeto
 
