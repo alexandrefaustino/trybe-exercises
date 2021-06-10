@@ -231,7 +231,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [x] 32-1: _Arquitetura de Software - Camada de View_
 - [x] 32-2: _Sockets - TCP/UDP & NET_
-- [ ] 32-3: _Sockets - Socket.io_
+- [x] 32-3: _Sockets - Socket.io_
 - [ ] 32-4: _[Projeto - Webchat]()_
 
 ##### Bloco 33: Projeto Trybeer II
